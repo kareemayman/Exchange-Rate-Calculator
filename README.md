@@ -1,4 +1,4 @@
-# Exchange-Rate-Calculator
+# Exchange Rate Calculator
 Exchange Rate Calculator - Made From Scratch With Vanilla JS
 
 ## Project Features
