@@ -54,6 +54,12 @@ body {
     outline: none;
     font-size: 2rem;
     text-align: right;
+    -moz-appearance: textfield;
+}
+
+.flex input[type="number"]::-webkit-inner-spin-button,
+.flex input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
 }
 
 select, button {
@@ -70,4 +76,10 @@ select, button {
 
 .flex button:hover {
     background-color: #56a191;
+}
+
+.flex select {
+    background-color: transparent;
+    border: 1px solid #cfcfcf;
+    outline: none;
 }
