@@ -54,7 +54,6 @@ body {
     outline: none;
     font-size: 2rem;
     text-align: right;
-    -moz-appearance: textfield;
 }
 
 .flex input[type="number"]::-webkit-inner-spin-button,
@@ -82,4 +81,8 @@ select, button {
     background-color: transparent;
     border: 1px solid #cfcfcf;
     outline: none;
+}
+
+small {
+    font-size: 16px;
 }
