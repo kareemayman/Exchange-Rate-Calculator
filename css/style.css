@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5fbaa7;
+    height: 100dvh;
+}
+
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.container .logo {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .logo img{
+    max-width: 100%;
+}
+
+.container p {
+    color: black;
+    margin: 30px 0;
+}
+
+.flex {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex input[type="number"] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    text-align: right;
+}
+
+select, button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.flex button {
+    color: white;
+    background-color: #5fbaa7;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.flex button:hover {
+    background-color: #56a191;
+}

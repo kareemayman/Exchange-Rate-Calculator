@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exchange Rate Calculator</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="script.js"></script>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="logo">
+            <img src="images/money.png" alt="money">
+        </div>
+
+        <h1>Exchange Rate Calculator</h1>
+
+        <p>Choose the currency and the amounts to get the exchange rate</p>
+
+        <div class="flex">
+            <select name="curr1" id="curr1">
+
+            </select>
+
+            <input type="number" name="curr1-value" id="curr1-value" value="1">
+        </div>
+
+        <div class="flex">
+            <button>Swap</button>
+
+            <small class="info">
+                
+            </small>
+        </div>
+
+        <div class="flex">
+            <select name="curr2" id="curr2">
+
+            </select>
+
+            <input type="number" name="curr2-value" id="curr2-value">
+        </div>
+    </div>
 </body>
 </html>
