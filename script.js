@@ -28,9 +28,11 @@ function fetchAPI() {
 
 swapButton.addEventListener('click', e => {
 
-    let firstCurrCopy = firstCurr.value
-    firstCurr.value = secondCurr.value
-    secondCurr.value = firstCurrCopy
+    // let firstCurrCopy = firstCurr.value
+    // firstCurr.value = secondCurr.value
+    // secondCurr.value = firstCurrCopy
+
+    [firstCurr.value, secondCurr.value] = [secondCurr.value, firstCurr.value]
 
     fetchAPI()
 })
