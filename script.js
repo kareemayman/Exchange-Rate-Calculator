@@ -43,6 +43,6 @@ secondCurr.addEventListener('change', e => {
     fetchAPI()
 })
 
-firstCurrInput.addEventListener('change', e => {
+firstCurrInput.addEventListener('input', e => {
     fetchAPI()
 })
